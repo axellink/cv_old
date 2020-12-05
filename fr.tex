@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[purple]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+
+\firstname{Axel}
+\familyname{Vanzaghi}
+\title{Ingénieur Informatique Système et Développement}             
+\address{12, place des anciennes halles}{86340 Nieuil L'Espoir}
+\mobile{0615239388}
+\email{axel.vanzaghi@gmail.com}
+%\photo[75pt][0pt]{test}
+
+\begin{document}
+\maketitle
+
+\section{Diplômes et Etudes}
+\cventry{2015}{Diplôme d'ingénieur spécialité Cloud Computing}{EISTI (Ecole Internationale des Sciences du Traitement de l'Information)}{Pau}{}{}
+\cventry{2010}{Baccalauréat option scientifique mention assez bien}{}{}{}{}
+
+\section{Experience Professionnelle}
+\cventry{avril-août 2014}{Stage système à Viveris Technologies}{Viveris Technologies}{31000 Toulouse}{France}{
+\begin{itemize}
+    \item Installation des composants Nova, Neutron, Swift, Horizon d'OpenStack en version Juno
+\end{itemize}
+}
+
+\cventry{avril-septembre 2015}{Stage développement réseau à INT}{INT}{64000 Pau}{France}{
+\begin{itemize}
+    \item Programmation en Java d'un proxy réseau de commande OpenGL pour rendu de scènes éclatées sur plusieurs unités
+\end{itemize}
+}
+
+\cventry{septembre-décembre 2015}{Suivi de projet d'élèves ingénieurs}{EISTI}{64000 Pau}{France}{
+\begin{itemize}
+    \item Projet en C de modification d'images, avec interface Web liée via PHP
+\end{itemize}
+}
+
+\cventry{septembre 2015-septembre 2020}{Ingénieur Système Sécurité}{Vivers technologies}{31000 Toulouse}{France}{
+\begin{itemize}
+	\item Mise à jour Openstack avec passage sur Ubuntu et minimum d'interruption de service
+	\item Banc de test passerelle fichier FTP/FTPS en python. \textit{Pour client dans le domaine spatial}
+	\item Industrialisation passerelle fichier unidirectionelle : packaging RedHat, Wizard installation. \textit{Pour client dans le domaine spatial}
+	\item Développement système passerelle fichier et TCP : automatisation, contenairisation LXC, chroot logiciel, simulation lien série pour test. \textit{Pour client dans le domaine spatial}
+	\item Sécurisation passerelle fichier et TCP via OpenSCAP. \textit{Pour client dans le domaine spatial}
+	\item Adaptation passerelle fichier pour machine virtuelle : Passage à SoftHSM, Simulation lien série. \textit{Pour client dans le domaine spatial}
+	\item Intégration logiciel, sécurité, HA dans système de déploiment automatisé propriétaire : intégration Java et PostgreSQL, sécurisation PostgreSQL, Heartbeat/Pacemaker/DRBD. \textit{Pour client dans le domaine spatial}
+\end{itemize}}
+
+\cventry{février-mai 2017}{Enseignement C++}{EISTI}{64000 Pau}{France}{}
+\cventry{octobre 2015 - maintenant}{Ingénieur Système Hébergment}{Ayaline}{86000 Poitiers}{France}{
+\begin{itemize}
+    \item Migration VM (ESXi/KVM vers ESXi)
+    \item Dockerisation d'anciennes appli PHP avec CI/CD (gitlab-ci)
+    \item Autres tâches d'administrations (création de mails, réaction aux attaques)
+\end{itemize}
+}
+%\cventry{}{}{}{}{}{}
+\newpage
+\maketitle
+\section{Compétences}
+\cvitem{Langage}{Bash, Python, C, C++, Java, Scala, PHP, Assembleur x86, Prolog, Scheme}
+\cvitem{Frameworks}{J2EE, Play-SCALA}
+\cvitem{Modélisation}{UML}
+\cvitem{Web, XML}{HTML5, CSS3, Javascript, XSL, XSD}
+\cvitem{SGBD}{MySQL, Oracle, PostgreSQL}
+\cvitem{Systèmes d'exploitation}{Linux, OS Durci}
+\cvitem{Administration système}{Apache, Nginx, OpenVPN, proFTP, OpenLDAP, vsftp, Virtualisation (Proxmox, KVM, VirtualBox, VMWare)}
+\cvitem{Container}{Docker}
+\cvitem{Réseau}{Connaissance de protocoles (DNS, SSH, FTP, HTTP, SSL/TLS, IP, UDP, TCP, ARP, ICMP, DHCP, Ethernet), Routage et contrôle de trafic, Firewall Stormshield, pfSense, Switch Dell}
+\cvitem{Autres}{\LaTeX, GitLab, Jira, Bitbucket, Jenkins}
+
+\section{Langues}
+\cvlanguage{Français}{Langue maternelle}{}
+\cvlanguage{Anglais}{Lu, écrit, parlé, TOEIC: 925}{}
+
+\section{Voyages et centres d'intérêt}
+\cvline{Voyages}{3 mois au total en Irlande}
+\cvline{Informatique}{Premières lignes de codes à 12 ans, dispose aujourd'hui d'un serveur que j'administre.\newline Administrateur réseau pour des LAN d'une centaine de personnes.\newline Veille technologique.}
+\cvline{Musique}{Guitariste, membre d'un groupe de 2010 à 2013}
+\cvline{Autres}{Jeux vidéo}
+
+\end{document}
